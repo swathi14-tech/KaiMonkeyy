@@ -25,7 +25,7 @@ jobs:
         
         #Uploading the artifacts in Github actions
     -  name: Use the Upload Artifact GitHub Action
-       uses: actions/upload-artifact@v2
+       uses: actions/upload-artifact@v4
        with:
            name: results.sarif
            path: myResults/results.sarif
